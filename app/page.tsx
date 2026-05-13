@@ -170,11 +170,11 @@ export default function VSPTechpackWebsite() {
         id="home"
         className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700 text-white"
       >
-        <div className="max-w-7xl mx-auto px-6 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto px-5 py-20 lg:py-28 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
 
-            <span className="bg-white text-[#0b5d2a] px-4 py-1 rounded-full text-lg font-semibold">
+            <span className="bg-white text-[#0b5d2a] px-2 py-0.5 rounded-full text-lg font-semibold">
               
             Efficiency and Innovation in Every Pack
 
