@@ -343,13 +343,13 @@ export default function VSPTechpackWebsite() {
         <span>125 KVA Generator</span>
       </div>
 
-      <div className="flex justify-between border-b pb-3">
+      {/* <div className="flex justify-between border-b pb-3">
         <span className="font-semibold">
           Skilled Staff
         </span>
 
         <span>08 Workers & 02 Supervisors</span>
-      </div>
+      </div> */}
 
       <div className="flex justify-between border-b pb-3">
         <span className="font-semibold">
