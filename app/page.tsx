@@ -274,18 +274,17 @@ export default function VSPTechpackWebsite() {
       Company Establishment
     </h3>
 
-    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-justify break-word">
+    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-center break-words">
       {/* <p className="mt-2 text-slate-700 text-[12px] md:text-[16px] leading-3 md:leading-5 text-justify break-words"></p> */}
 
       VSP TECHPACK was established in 2024 as a specialized
       corrugated box manufacturing company located in Bangalore.
 
-      <br /><br />
+      <br />
+      We focus on delivering premium-quality packaging solutions with reliable 
+      manufacturing support, skilled manpower,and modern machinery.
 
-      We focus on delivering premium-quality packaging solutions with reliable manufacturing support, skilled manpower,
-      and modern machinery.
-
-      <br /><br />
+      <br />
 
       Our mission is to provide durable, innovative, and
       cost-effective packaging products while ensuring timely
@@ -557,6 +556,7 @@ export default function VSPTechpackWebsite() {
 
             <div className="mt-10 space-y-4 text-black">
               <h2 className="text-4xl font-bold text-[#0b5d2a]">VSP TECHPACK</h2>
+              <p>Managing Director</p>
               <p>Shashank Naidu </p>
               <p>📞 +91 9880934867 / 9480407432</p>
               {/* <p>📞 +91 9480407432</p> */}
