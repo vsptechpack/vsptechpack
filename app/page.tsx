@@ -34,9 +34,14 @@ export default function VSPTechpackWebsite() {
       title: "Pallet Type Boxing",
       image: "/images/Pallet-Type-Boxing.jpg",
     },
+    // {
+    //   title: "Regular Slotted Boxes",
+    //   image: "/images/REGULAR-SLOTTED-BOXES.jpg",
+    // },
+
     {
-      title: "Regular Slotted Boxes",
-      image: "/images/REGULAR-SLOTTED-BOXES.jpg",
+      title: "Mono Carton Box",
+      image: "/images/Mono Carton Box.png",
     },
     {
       title: "Sleeves & Caps",
@@ -62,6 +67,8 @@ export default function VSPTechpackWebsite() {
       title: "Wooden Pallets",
       image: "/images/wooden pallets.jpg",
     },
+    
+
   ];
 
   return (
