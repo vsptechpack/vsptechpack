@@ -181,7 +181,7 @@ export default function VSPTechpackWebsite() {
 
           <div>
 
-            <span className="bg-white text-[#0b5d2a] px-2 py-0.5 rounded-full text-lg font-semibold">
+            <span className="bg-white text-[#0b5d2a] px-1 py-2 rounded-full text-lg font-semibold">
               
             Efficiency and Innovation in Every Pack
 
@@ -269,12 +269,12 @@ export default function VSPTechpackWebsite() {
 
   {/* COMPANY ESTABLISHMENT */}
   {/* <div className="bg-white rounded-3xl p-6  shadow-lg hover:shadow-2xl transition duration-500 h-[500px] flex flex-col justify-center"> */}
-<div className="bg-white rounded-4xl p-6 shadow-lg hover:shadow-2xl transition duration-500 h-[500px] max-w-[520px] w-full flex flex-col justify-center">
-    <h3 className="text-2xl font-bold text-slate-900 leading-tight">
+<div className="bg-white rounded-4xl p-4 shadow-lg hover:shadow-2xl transition duration-500 h-[420px] max-w-[520px] w-full flex flex-col text-left md:text-justify">
+    <h3 className="text-2xl font-bold text-slate-800 leading-tight">
       Company Establishment
     </h3>
 
-    <p className="mt-3 text-slate-700 text-[12px] md:text-[15.68px] leading-6 tracking-wide text-center break-words">
+    <p className="mt-4 text-slate-900  md:text-[17px] leading-6 tracking-wide text-center break-words">
       {/* <p className="mt-2 text-slate-700 text-[12px] md:text-[16px] leading-3 md:leading-5 text-justify break-words"></p> */}
 
       VSP TECHPACK was established in 2024 as a specialized
@@ -392,13 +392,18 @@ export default function VSPTechpackWebsite() {
     <div className="mt-16 grid md:grid-cols-3 gap-6">
 
       {/* COMPANY OVERVIEW */}
-      <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition duration-500">
+      {/* <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition duration-500"> */}
+        <div className="bg-white rounded-3xl p-6 md:p-8 shadow-lg hover:shadow-2xl transition duration-500">
 
-        <h3 className="text-2xl font-bold text-slate-900 mb-5">
+        {/* <h3 className="text-3xl font-bold text-slate-900 mb-5 text-center">
           Company Overview
-        </h3>
+        </h3> */}
+        <h3 className="text-2xl md:text-2xl font-bold text-slate-900 mb-2 leading-tight text-left">
+    Company Overview
+  </h3>
 
-        <p className="text-slate-600 leading-relaxed">
+        <p className="text-slate-700 text-[17px] md:text-[16px] leading-8 ">
+          
 
           We provide innovative and reliable corrugated packaging
           solutions designed to meet modern industrial and commercial
@@ -450,11 +455,11 @@ export default function VSPTechpackWebsite() {
       {/* QUALITY */}
       <div className="bg-white rounded-3xl p-6 shadow-lg hover:shadow-2xl transition duration-500">
 
-        <h3 className="text-2xl font-bold text-slate-900 mb-5">
+        <h3 className="text-2xl  font-bold text-slate-900 mb-5">
           Quality & Delivery
         </h3>
 
-        <p className="text-slate-600 leading-relaxed">
+        <p className="text-slate-600  text-[17px] leading-relaxed">
 
           We follow strict quality testing procedures and ensure every
           product is inspected before dispatch.
@@ -480,11 +485,11 @@ export default function VSPTechpackWebsite() {
 
         <div className="max-w-7xl mx-auto px-6">
 
-          <div className="text-center max-w-3xl mx-auto">
+          <div className="text-center max-w-2xl mx-auto">
 
             <span className="text-orange-500 font-semibold uppercase tracking-widest text-sm">
               Our Products
-            </span>
+            </span> 
 
             <h3 className="mt-4 text-4xl font-bold text-slate-900">
               Complete Packaging Solutions
@@ -495,7 +500,7 @@ export default function VSPTechpackWebsite() {
             </p>
           </div>
 
-          <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-5">
 
             {products.map((item, index) => (
 
@@ -508,7 +513,7 @@ export default function VSPTechpackWebsite() {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="h-50 w-full object-cover group-hover:scale-110 transition duration-700"
+                    className="h-60 w-full object-cover group-hover:scale-100 transition duration-700"
                   />
                 </div>
 
@@ -610,7 +615,7 @@ export default function VSPTechpackWebsite() {
       {/* FOOTER */}
       <footer className="bg-slate-950 text-slate-400 py-8 border-t border-white/10">
 
-        <div className="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
+        <div className="max-w-7xl mx-auto px-1 flex flex-col lg:flex-row items-center justify-between gap-6 text-center lg:text-left">
 
           <p>Design and Developed by NITHIN NAIDU N</p>
 
@@ -651,7 +656,7 @@ export default function VSPTechpackWebsite() {
               rel="noopener noreferrer"
               className="bg-slate-800 hover:bg-green-500 p-3 rounded-full transition-all duration-300 hover:scale-110"
             >
-              <MessageCircle size={20} className="text-white" />
+              <MessageCircle size={18} className="text-white" />
             </a>
 
           </div>
